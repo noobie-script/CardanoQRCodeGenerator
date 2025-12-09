@@ -4,10 +4,10 @@ import yagmail
 import pandas as pd
 
 # --- CONFIG ---
-PSW = "buhs esbo bgaz cqje"
 CARTELLA_QR = "qrcodes"
-FILE_EXCEL = "studenti.xlsx"
-EMAIL = "companynoobie@gmail.com"
+PSW = "PASSWORD PER APP DELL'ACCOUNT GMAIL DA CREARE"
+FILE_EXCEL = "NOMEFILE.xlsx"
+EMAIL = "MAIL MITTENTE DEI QR CODE"
 
 # preparazione cartela
 os.makedirs(CARTELLA_QR, exist_ok=True)
